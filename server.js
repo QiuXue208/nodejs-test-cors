@@ -47,6 +47,7 @@ var server = http.createServer(function (request, response) {
        <body>Don't forget me this weekend!</body>
      </note>
     `)*/
+    //设置第四部分内容
     response.write(`
     {
       "note":{
